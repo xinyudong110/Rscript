@@ -4,3 +4,11 @@ author: "xinyu"
 date: "`r Sys.Date()`"
 output: github_document
 ---
+
+
+```{r}
+library(tidymodels)
+glimpse(mtcars)
+ggplot(data = mtcars,aes(x=mpg,y=wt))+geom_point()
+```
+
