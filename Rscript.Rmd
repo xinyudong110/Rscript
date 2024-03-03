@@ -1,0 +1,6 @@
+---
+title: "hello"
+author: "xinyu"
+date: "`r Sys.Date()`"
+output: github_document
+---
